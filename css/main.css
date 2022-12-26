@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+  background: #eab564;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+h1{
+  font-size: 60px;
+  text-align: center;
+}
+p{
+  font-size: 20px;
+}
+a{
+  font-size: 30px;
+  text-decoration: none;
+  color: aliceblue;
+}
+.container{
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+
+}
+.logo{
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  height: 60;
+  width: 130;
+  padding: 1rem;
+  padding-top: 27px;
+}
+.primary-nav{
+  padding: 25px 16px;
+  
+}
+.primary-nav a{
+  display: inline;
+  font-size: 30px;
+  padding: 1rem;
+  padding-left: 0;
+  padding: 25px 15px;
+  
+
+}
+.get-started{
+  font-size: 30px;
+  padding: 25px 16px;
+  float: right;
+  padding-top: 40px;
+}
+
+section.front-page{
+  text-align: center;
+  font-size: 1em;
+}
+.frontpages{
+  background-image: url(../images/frontpg.svg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+section.about{
+  background-color: azure;
+  margin: 20px;
+  padding: 20px;
+}
+
+.container-feature{
+  background-color: rgb(179, 132, 25);
+  text-align: center;
+}
+
+.feature-programs{
+  display: flex;
+  justify-content: center;
+
+  padding-top: 5px;
+
+}
+.feature-programs ul{
+  font-size: 1.5rem;
+  width: 200px;
+
+}
+
+.img-feature-programs{
+  height: 500px;
+  width: 300px;
+}
+
+.feature-progress-tracking{
+  display: flex;
+  justify-content: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  padding-bottom: 5px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  padding-top: 5px;
+
+}
+.img-iphone-tracker{
+  height: 500px;
+  width: 300px;
+}
+.feature-progress-tracking ul {
+  font-size: 1.5rem;
+  width: 200px;
+  padding-top: 40px;
+}
+
+
+.feature-fitness-planner{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+
+}
+.img-fitness-feature{
+  height: 300px;
+  width: 500px;
+}
+
+.feature-fitness-planner ul{
+  font-size: 1.5rem;
+  width: 300px;
+  padding-top: 20px;
+}
+
+section.contact-page{
+  margin-top: 10px;
+  background-color: rgb(231, 162, 58);
+  height: 650px;
+
+
+}
+
+.contact-page h2{
+  font-size: 40px;
+}
+
+
+.contact-container{
+  display: flex;
+
+}
+
+.any-questions-form{
+  height: 400px;
+  width: 600px;
+  margin-left: 300px;
+  
+}
+.contact-right{
+  height: 400px;
+  width: 600px;
+  margin-left: 300px;
+  font-size: 1.5em;
+}
+
+section.application-page{
+  background-color: black;
+  color: aliceblue;
+  padding-top: 10px;
+  height: 350px;
+  align-items: center;
+  margin: auto;
+}
+.appbutton{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 25px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 565px;
+
+}
+
+.application-form h1{
+  height: 70px;
+}
+.application-form{
+  background-color: rgb(185, 178, 178);
+  height: 1200px;
+  margin: 0 50px;
+  align-items: center;
+
+}
+.formapp{
+  width: 500px;
+  font-size: 20px;
+  display: flex;
+  align-content: center;
+  margin: auto;
+
+}
+
+.tech-support{
+  background-color: #eab564;
+  text-align: center;
+
+}
+.formrequest{
+  width: 200px;
+  margin: auto;
+}
+
+
+/*# sourceMappingURL=main.css.map */
